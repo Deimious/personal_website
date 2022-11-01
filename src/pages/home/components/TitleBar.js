@@ -2,7 +2,11 @@ import React from 'react';
 
 export default class TitleBar extends React.Component {
     render() {
-        return <h1>Hello, {this.props.name}</h1>;
+        return (
+            <nav>
+                Hello, {this.props.name}
+            </nav>
+        );
     }
 }
 

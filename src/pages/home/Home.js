@@ -1,4 +1,4 @@
-import logo from '../../resources/logo.svg';
+import logo from '../../resources/images/logo.svg';
 import '../../style.css';
 import TitleBar from './components/TitleBar.js'
 
